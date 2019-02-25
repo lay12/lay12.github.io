@@ -89,7 +89,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://lay12.github.io/:/blog/2019/02/24/PHP/" data-id="cjsit9y9x0000akuocqmorkxt" class="article-share-link">Share</a>
+      <a data-url="http://lay12.github.io/:/blog/2019/02/24/PHP/" data-id="cjsk7he8o000174uoresfbive" class="article-share-link">Share</a>
       
       
     </footer>
@@ -127,7 +127,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://lay12.github.io/:/blog/2019/02/24/JavaScript初步学习/" data-id="cjsit9yaa0001akuotque7uyt" class="article-share-link">Share</a>
+      <a data-url="http://lay12.github.io/:/blog/2019/02/24/JavaScript初步学习/" data-id="cjsk7he8a000074uog9y3xmfp" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Javascript和Java不同/">Javascript和Java不同</a></li></ul>
@@ -162,13 +162,17 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="C语言学习"><a href="#C语言学习" class="headerlink" title="C语言学习"></a>C语言学习</h1><p>…<br>关于C语言的学习已经有一段时间，这段时间发现程序运行的功能只有你想不到，没有它做不到的。其中代码是基础，无论复杂程度，每一行代码都有它不可或缺的作用，而我们要做的就是把每一行，每一个思路都弄得清楚明白，这样才可以灵活运用，同时还要注意养成良好的习惯。而在这段时间的学习内，自己可以动手用程序解决平常出现的一些问题，当然也有一部分题目涉及范围太广，我还没有掌握，仍需继续努力。</p>
-<h2 id="简单的案例：-猜数字游戏："><a href="#简单的案例：-猜数字游戏：" class="headerlink" title="简单的案例： 猜数字游戏："></a>简单的案例： 猜数字游戏：</h2><p> #include&lt;stdio.h&gt;</p>
-<p> #include&lt;stdlib.h&gt;<br> int main()<br> {<br>    int d=1,e=0;<br>    int a,b,t;<br>    printf(“请输入1-10以内的整数,\n”);<br>    while(d==1)<br>    {<br>        printf(“玩家的选择:”);<br>        scanf(“%d”,&amp;a);<br>        do<br>        {<br>            if((a&gt;=0)&amp;&amp;(a&lt;11))<br>                break;<br>            else<br>            {<br>                printf(“error!\n”);<br>                scanf(“%d”,&amp;a);<br>            }<br>        }<br>            while(e==0);<br>                b=rand()%10+1;<br>            printf(“npc:%d”,b);<br>            t=a-b;<br>            if(t==0)<br>                printf(“Right!\n”);<br>            else if(t&lt;0)<br>                printf(“Wrong!太小了\n”);<br>                else if(t&gt;0)<br>                    printf(“Wrong!太大了\n”);<br>    }<br>    return 0;<br> }<br>…</p>
+<h2 id="一个有趣的编程-猜数字游戏："><a href="#一个有趣的编程-猜数字游戏：" class="headerlink" title="一个有趣的编程 猜数字游戏："></a>一个有趣的编程 猜数字游戏：</h2><p> #include&lt;stdio.h&gt;</p>
+<p> #include&lt;stdlib.h&gt;<br> int main()<br> {<br>    int d=1,e=0;<br>    int a,b,t;<br>    printf(“请输入1-10以内的整数,\n”);<br>    while(d==1)<br>    {<br>        printf(“玩家的选择:”);<br>        scanf(“%d”,&amp;a);<br>        do<br>        {<br>            if((a&gt;=0)&amp;&amp;(a&lt;11))<br>                break;<br>            else<br>            {<br>                printf(“error!\n”);<br>                scanf(“%d”,&amp;a);<br>            }<br>        }<br>            while(e==0);<br>                b=rand()%10+1;<br>            printf(“npc:%d”,b);<br>            t=a-b;<br>            if(t==0)<br>                printf(“Right!\n”);<br>            else if(t&lt;0)<br>                printf(“Wrong!太小了\n”);<br>                else if(t&gt;0)<br>                    printf(“Wrong!太大了\n”);<br>    }<br>    return 0;<br> }</p>
+<p>其中stdlib.h是标准库函数头文件名。<br>rand()函数生产随机数，查看资料发现srand()也是产生为随机数。</p>
+<p>rand和srand用法及区别：</p>
+<p>rand函数<br>函数头文件：stdlib.h<br>函数定义：int rand(void)<br>功能：产生一个随机数<br>而在严格意义上来讲，并不是真正的随机数，它采用了线性同余法算出随机数，即使用了一个公式。</p>
+<p>srand函数<br>函数头文件：stdlib.h<br>含义：随机数发生器的初始化函数<br>定义：void srand（unsigned int seed）<br>功能：设置随机数种子<br>通常可以利用时间来改变系统种子值，可以实现真正意义上的随机。<br>…</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://lay12.github.io/:/blog/2019/02/21/第一篇/" data-id="cjsit9ybe0005akuo16ej6f1z" class="article-share-link">Share</a>
+      <a data-url="http://lay12.github.io/:/blog/2019/02/21/第一篇/" data-id="cjsk7he9m000474uortur9y6k" class="article-share-link">Share</a>
       
       
     </footer>
@@ -213,7 +217,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://lay12.github.io/:/blog/2019/02/20/hello-world/" data-id="cjsit9yaf0002akuoyjgewkn5" class="article-share-link">Share</a>
+      <a data-url="http://lay12.github.io/:/blog/2019/02/20/hello-world/" data-id="cjsk7he9p000574uotz7b7hzz" class="article-share-link">Share</a>
       
       
     </footer>
