@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>PHP</title>
+      <link href="/:/blog/2019/02/24/PHP/"/>
+      <url>/:/blog/2019/02/24/PHP/</url>
+      
+        <content type="html"><![CDATA[<p>…<br>一.PHP环境搭建<br>首先下载所需软件：<br>Apache<br>PHP<br>MySQL<br>二.PHP集成开发工具如下：<br>1.WAMP<br>2.AppServ<br>3.XAMPP</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JavaScript</title>
+      <link href="/:/blog/2019/02/24/JavaScript%E5%88%9D%E6%AD%A5%E5%AD%A6%E4%B9%A0/"/>
+      <url>/:/blog/2019/02/24/JavaScript%E5%88%9D%E6%AD%A5%E5%AD%A6%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<p>…</p><h1 id="JavaScript初步学习"><a href="#JavaScript初步学习" class="headerlink" title="JavaScript初步学习"></a>JavaScript初步学习</h1><h2 id="一-配置环境"><a href="#一-配置环境" class="headerlink" title="一.配置环境"></a>一.配置环境</h2><p>一种有用的Javascript开发工具是Visual Studio，可以在如下链接中下载：<a href="https://code.visualstudio.com/" target="_blank" rel="noopener">https://code.visualstudio.com/</a><br>以及一个简单的web服务器，在如下地址可以下载：<a href="https://dotnet.microsoft.com/apps/aspnet" target="_blank" rel="noopener">https://dotnet.microsoft.com/apps/aspnet</a><br>当然凭个人习惯使用，如果其他应用用的比较习惯，也可以使用其他的。<br>等到环境完成，即可进行下一步操作。<br>…</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Javascript和Java不同 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>python</title>
+      <link href="/:/blog/2019/02/23/python/"/>
+      <url>/:/blog/2019/02/23/python/</url>
+      
+        <content type="html"><![CDATA[<p>#python学习<br>首先python很有特点，相较于C语言或其他类编程来说语法极其简洁，应该比较容易学习，既支持面向过程编程，也支持面向对象编程，另外可以将其嵌入到C/C++程序中，从而提供脚本功能<br>一.os模块<br>当前Python脚本工作的目录路径: os.getcwd()<br>返回指定目录下的所有文件和目录名:os.listdir()<br>函数用来删除一个文件:os.remove()<br>删除多个目录：os.removedirs()<br>检验给出的路径是否是一个文件：os.path.isfile()<br>检验给出的路径是否是一个目录：os.path.isdir()<br>判断是否是绝对路径：os.path.isabs()<br>检验给出的路径是否真地存:os.path.exists()<br>返回一个路径的目录名和文件名:os.path.split()   os.path.splitext()<br>获取路径名：os.path.dirname()<br>获取文件名：os.path.basename()<br>运行shell命令: os.system()<br>读取和设置环境变量:os.getenv()   os.putenv()<br>给出当前平台使用的行终止符:os.linesep<br>创建多级目录：os.makedirs（r“c：\python\test”）<br>创建单个目录：os.mkdir（“test”）<br>获取文件属性：os.stat（file）<br>修改文件权限与时间戳：os.chmod（file）<br>终止当前进程：os.exit（）<br>获取文件大小：os.path.getsize（filename) </p><p>二.小乌龟画图<br>（from turtle import*）<br>turtle.screensize(canvwidth=None,canvheight=None,bg=None): 参数分别为画布的宽，高，背景颜色<br>forward(degree): 向前移动距离degree代表距离<br>backward(degree): 向后移动距离degree代表距离<br>right(degree): 向右移动多少度<br>left(degree): 向左移动多少度<br>goto(x,y): 将画笔移动到坐标为x,y的位置<br>speed(speed): 画笔绘制的速度是0-10之间的整数<br>down(): 画笔落下，移动时绘制图形<br>up(): 画笔抬起，移动时不绘制图形<br>setheading(degree): 海龟朝向，(degree代表角度)<br>reset(): 恢复所有设置<br>pensize(width): 画笔的宽度<br>pencolor(colorstring): 画笔的颜色<br>fillcolor(colorstring): 绘制图形的填充颜色(fill(True) fill(False))<br>circle(r): r为圆的半径</p><p>三.python中的数字类型<br>python中数字有四种类型：整数、布尔型、浮点数和复数。<br>int (整数)  如 1, 只有一种整数类型 int，表示为长整型<br>bool (布尔) 如 True<br>float (浮点数) 如 1.23、3E-3<br>complex (复数) 如 1 + 2j,2.3-4.6j<br>(给有经验的程序员的注释： 在 Python 中不用区分‘long int’类型。默认的整数类型可以任意长。)</p><p>四.引号<br>单引号<br>你可以用单引号指定字符串，如 ’Quote me on this’ 。所有的空白，即空格和制表 符都照原样保留。<br>双引号<br>在双引号中的字符串与单引号中的字符串的使用完全相同，例如 “What’s your name?” 。<br>三引号<br>利用三引号（”””or”’），你可以指示一个多行的字符串。你可以在三引号中自由 的使用单引号和双引号。例如：<br> ‘’’This is a multi-line string. This is the first line.<br> This is the second line.<br> “What’s your name?,” I asked.<br> He said “Bond, James Bond.”<br> ‘’’</p><p>五.标识符的命名<br>变量是标识符的例子。标识符是用来标识某样东西的名字。<br>在命名标识符的时候，你要遵循这些规则：<br>• 标识符的第一个字符必须是字母表中的字母（大写或小写）或者一个下划线 （‘<em>’）。<br>• 标识符名称的其他部分可以由字母（大写或小写）、下划线（‘</em>’）或数字（0-9） 组成。<br>• 标识符名称是对大小写敏感的。例如，myname 和 myName 不是一个标识符。注 意前者中的小写 n 和后者中的大写 N 。<br>• 有效标识符名称的例子有 i 、 __my_name 、 name_23 和 a1b2_c3 。<br>• 无效标识符名称的例子有 2things 、 this is spaced out 和 my-name 。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第一篇</title>
+      <link href="/:/blog/2019/02/21/%E7%AC%AC%E4%B8%80%E7%AF%87/"/>
+      <url>/:/blog/2019/02/21/%E7%AC%AC%E4%B8%80%E7%AF%87/</url>
+      
+        <content type="html"><![CDATA[<h1 id="C语言学习"><a href="#C语言学习" class="headerlink" title="C语言学习"></a>C语言学习</h1><p>…<br>关于C语言的学习已经有一段时间，这段时间发现程序运行的功能只有你想不到，没有它做不到的。其中代码是基础，无论复杂程度，每一行代码都有它不可或缺的作用，而我们要做的就是把每一行，每一个思路都弄得清楚明白，这样才可以灵活运用，同时还要注意养成良好的习惯。而在这段时间的学习内，自己可以动手用程序解决平常出现的一些问题，当然也有一部分题目涉及范围太广，我还没有掌握，仍需继续努力。</p><h2 id="一个有趣的编程-猜数字游戏："><a href="#一个有趣的编程-猜数字游戏：" class="headerlink" title="一个有趣的编程 猜数字游戏："></a>一个有趣的编程 猜数字游戏：</h2><p> #include&lt;stdio.h&gt;</p><p> #include&lt;stdlib.h&gt;<br> int main()<br> {<br>    int d=1,e=0;<br>    int a,b,t;<br>    printf(“请输入1-10以内的整数,\n”);<br>    while(d==1)<br>    {<br>        printf(“玩家的选择:”);<br>        scanf(“%d”,&amp;a);<br>        do<br>        {<br>            if((a&gt;=0)&amp;&amp;(a&lt;11))<br>                break;<br>            else<br>            {<br>                printf(“error!\n”);<br>                scanf(“%d”,&amp;a);<br>            }<br>        }<br>            while(e==0);<br>                b=rand()%10+1;<br>            printf(“npc:%d”,b);<br>            t=a-b;<br>            if(t==0)<br>                printf(“Right!\n”);<br>            else if(t&lt;0)<br>                printf(“Wrong!太小了\n”);<br>                else if(t&gt;0)<br>                    printf(“Wrong!太大了\n”);<br>    }<br>    return 0;<br> }</p><p>其中stdlib.h是标准库函数头文件名。<br>rand()函数生产随机数，查看资料发现srand()也是产生为随机数。</p><p>rand和srand用法及区别：</p><p>rand函数<br>函数头文件：stdlib.h<br>函数定义：int rand(void)<br>功能：产生一个随机数<br>而在严格意义上来讲，并不是真正的随机数，它采用了线性同余法算出随机数，即使用了一个公式。</p><p>srand函数<br>函数头文件：stdlib.h<br>含义：随机数发生器的初始化函数<br>定义：void srand（unsigned int seed）<br>功能：设置随机数种子<br>通常可以利用时间来改变系统种子值，可以实现真正意义上的随机。<br>…</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/:/blog/2019/02/20/hello-world/"/>
+      <url>/:/blog/2019/02/20/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
